@@ -111,7 +111,7 @@ Response:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/simple-crud-api.git
+git clone https://github.com/Xirtexe/crud-app-backend.git
 
 # 2. Install dependencies
 npm install
