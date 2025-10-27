@@ -6,12 +6,13 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// connecting to mongodb use atlas/localhost
 (async () => {
   try {
     await mongoose.connect("mongodb://localhost/node");
     console.log("Connected to mongodb");
   } catch (error) {
-    console.log("Error connecting to mongodb");
+    console.log("Error while connecting to mongodb");
   }
 })();
 
