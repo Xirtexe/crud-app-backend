@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-sample",
+  "version": "1.0.0",
+  "description": "mongoose example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "mongoose",
+    "express",
+    "sample"
+  ],
+  "author": "shahid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
